@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
 # Configuration from environment variables
-app.config['MONGO_URI'] = os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/gamehub')
+app.config['MONGO_URI'] = os.environ.get('MONGO_URI', 'mongodb://localhost:27017/gamehub')
 mongo = PyMongo(app)
 
 # Session-based auth helper
