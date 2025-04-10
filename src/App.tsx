@@ -5,7 +5,8 @@ import { AuthModal } from "./components/AuthModal";
 import { Game } from "./types";
 import { Gamepad2, LogIn, UserPlus, User } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://game-on-1.onrender.com/api";
+
 
 function App() {
   const [user, setUser] = useState<any>(null);
