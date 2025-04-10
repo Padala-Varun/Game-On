@@ -41,7 +41,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setLoading(true);
 
     try {
-      const API_BASE_URL = "http://localhost:5000/api"; // Adjust to your Flask backend URL
+      const API_BASE_URL = "https://game-on-1.onrender.com"; // Adjust to your Flask backend URL
 
       if (mode === "signup") {
         // Validate form data
